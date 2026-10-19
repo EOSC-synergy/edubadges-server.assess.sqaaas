@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       github.com/edubadges/edubadges-server git:
         commands:
-        - /usr/bin/env sh .sqa/script.jade_resourceful_raven.sh
-        container: qc.acc_echelon_pensive_barracuda
+        - /usr/bin/env sh .sqa/script.walnut_mysterious_warthog.sh
+        container: qc.acc_ecru_grumpy_coyote
   QC.Doc:
     repos:
       github.com/edubadges/edubadges-server find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.linen_dedicated_horse.sh
-        container: qc.doc_avocado_grateful_dragonfly
+        - /usr/bin/env sh .sqa/script.sepia_resilient_porcupine.sh
+        container: qc.doc_mauve_apprehensive_raccoon
       github.com/edubadges/edubadges-server git:
         commands:
-        - /usr/bin/env sh .sqa/script.espresso_authentic_antelope.sh
-        container: qc.doc_azure_peppy_boar
+        - /usr/bin/env sh .sqa/script.cobalt_bubbly_goose.sh
+        container: qc.doc_denim_apathetic_warthog
       github.com/edubadges/edubadges-server markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ruby_feisty_alligator.sh
-        container: qc.doc_sepia_shrewd_axolotl
+        - /usr/bin/env sh .sqa/script.white_hopeful_snail.sh
+        container: qc.doc_jasmine_ardent_jaguar
   QC.Lic:
     repos:
       github.com/edubadges/edubadges-server licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cream_mindful_rattlesnake.sh
-        container: qc.lic_mist_affectionate_orca
+        - /usr/bin/env sh .sqa/script.onyx_vibrant_otter.sh
+        container: qc.lic_clove_hardworking_raccoon
   QC.Sec:
     repos:
       github.com/edubadges/edubadges-server bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.plum_candid_jellyfish.sh
-        container: qc.sec_gray_feisty_dormouse
+        - /usr/bin/env sh .sqa/script.cream_sarcastic_chipmunk.sh
+        container: qc.sec_persimmon_skeptical_chameleon
   QC.Sty:
     repos:
       github.com/edubadges/edubadges-server flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.dahlia_tenacious_crane.sh
-        container: qc.sty_jasmine_zealous_spren
+        - /usr/bin/env sh .sqa/script.flax_lively_kiwi.sh
+        container: qc.sty_blush_energetic_antelope
       github.com/edubadges/edubadges-server hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.avocado_realistic_boar.sh
-        container: qc.sty_fog_mischievous_gerbil
+        - /usr/bin/env sh .sqa/script.dawn_fierce_alpaca.sh
+        container: qc.sty_ruby_grumpy_penguin
       github.com/edubadges/edubadges-server jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.arctic_clever_seahorse.sh
-        container: qc.sty_alabaster_unique_rhinoceros
+        - /usr/bin/env sh .sqa/script.ruby_sympathetic_hornbill.sh
+        container: qc.sty_celadon_diligent_dormouse
   QC.Uni:
     repos:
       github.com/edubadges/edubadges-server pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.horizon_foolish_eagle.sh
-        container: qc.uni_sapphire_fierce_spren
+        - /usr/bin/env sh .sqa/script.lavender_daring_flounder.sh
+        container: qc.uni_thunder_apathetic_nighthawk
   QC.Ver:
     repos:
       github.com/edubadges/edubadges-server get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chili_graceful_boa.sh
-        container: qc.ver_raspberry_honest_condor
+        - /usr/bin/env sh .sqa/script.olive_goofy_vulture.sh
+        container: qc.ver_reef_philosophical_elephant
 timeout: 5400
